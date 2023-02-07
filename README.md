@@ -1,4 +1,7 @@
 # DRUMSEQ
+
+![drumseq](drumseq.png?raw=true)
+
 - 16 step canvas for writing drum loops. 
 - Dynamic note input with features like drumroll, multi-measure composition, and probability based performance. 
 - Aesthetic GUI with live feedback and BPM adjustment.

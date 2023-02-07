@@ -228,7 +228,7 @@ def start():
 
         for x in tracks:
 
-            beat(i, count, str(x) + str(x.get_sound()) + '.wav', substep, seq)
+            beat(i, count, 'Sounds/' + str(x) + str(x.get_sound()) + '.wav', substep, seq)
             count+=1
 
     tracks = [Kick,Clap,Hat,Ride,Rim,FX]

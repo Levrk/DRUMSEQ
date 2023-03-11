@@ -151,7 +151,7 @@ Open = Button(frame,width=5,height=5,text="Open",command=lambda:open_file()).gri
 
 
 #setting up instruction labels & FISHLOGO
-photo = PhotoImage(file = "Fish.png")
+photo = PhotoImage(file = "Files/Fish.png")
 photoimage = photo.subsample(3)
 Fish = Label(frame,image=photoimage)
 Fish.grid(row=0,column=2,columnspan=2)
